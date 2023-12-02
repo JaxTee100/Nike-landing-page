@@ -1,0 +1,6 @@
+export {default as Nav} from '../components/Nav'
+export {default as Button} from '../components/Button'
+export {default as ShoeCard} from '../components/ShoeCard'
+export {default as PopularProductCard} from '../components/PopularProductCard'
+export {default as ServiceCard} from '../components/ServiceCard'
+export {default as ReviewCard} from '../components/ReviewCard'

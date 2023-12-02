@@ -1,0 +1,8 @@
+export {default as Hero} from '../sections/Hero'
+export {default as PopularProducts} from '../sections/PopularProducts'
+export {default as SuperQuality} from '../sections/SuperQuality'
+export {default as Services} from '../sections/Services'
+export {default as SpecialOffer} from '../sections/SpecialOffer'
+export {default as CustomerReviews} from '../sections/CustomerReviews'
+export {default as Subscribe} from '../sections/Subscribe'
+export {default as Footer} from '../sections/Footer'
