@@ -9,19 +9,19 @@ const SuperQuality = () => {
         className='flex justify-between items-center max-lg:flex-col gap-10 w-full max-container'
     >
         <div className='flex flex-1  flex-col'>
-            <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>We Provide You
-                <span className='text-coral-red'>Super</span>
-                <span className='text-coral-red'>Quality</span>Shoes
+            <h2 className='font-palanquin capitalize text-3xl text-center md:text-left md:text-4xl lg:max-w-lg font-bold'>We Provide You
+                <span className='text-coral-red text-3xl md:text-4xl'>Super</span>
+                <span className='text-coral-red text-3xl md:text-4xl'>Quality</span>Shoes
             </h2>
-            <p className='mt-4 lg:max-w-lg info-text'>
+            <p className='mt-4 text-center md:text-left lg:max-w-lg info-text'>
                 Ensuring premium comfort and style, our meticulously crafted footwear
                 is designed to elevate your experience, providing you with unmatched
                 quality, innovation, and a touch of elegance.
             </p>
-            <p className='mt-6 lg:max-w-lg info-text'>
+            <p className='mt-6 text-center md:text-left lg:max-w-lg info-text'>
                 Our dedication to detail and excellence ensures your satisfaction
             </p>
-            <div className='mt-11'>
+            <div className='mt-11 flex  justify-center md:justify-start'>
                 <Button label={'View Details'} />
             </div>
         </div>
