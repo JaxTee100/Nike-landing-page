@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className='max-container'>
         <div className='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col'>
-            <div className='flex flex-col items-start'>
+            <div className='flex flex-col items-start  max-md:text-center max-md:justify-center max-md:items-center'>
                 <a href='/'>
                     <img 
                         src={ footerLogo}
@@ -18,11 +18,11 @@ const Footer = () => {
 
                     />
                 </a>
-                <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
+                <p className=' mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
                     Get shoes ready for the new term at your nearest Nike store. Find
                     Your perfect Size In Store. Get Rewards
                 </p>
-                <div className='flex items-center gap-5 mt-8'>
+                <div className='flex items-center gap-5 mt-8 '>
                     {
                         socialMedia.map((icon) => (
                             <div 
@@ -37,10 +37,10 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap'>
+            <div className='flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap max-md:justify-center max-md:text-center'>
                 {
                     footerLinks.map((section) =>(
-                        <div key={section.links.title}>
+                        <div key={section.links.title} >
                             <h4 className='font-montserrat text-base leading-normal font-medium mb-6  text-white'>
                                 {section.title}
                             </h4>

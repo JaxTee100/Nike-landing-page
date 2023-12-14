@@ -11,10 +11,10 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
           bigShoeImg === imgURL.bigShoe
             ? "border-coral-red"
             : "border-transparent"
-        } cursor-pointer max-sm:flex-1`}
+        } cursor-pointer max-sm:flex-1 hover:scale-125 transition-all duration-500`}
         onClick={handleClick}
       >
-        <div className='flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4'>
+        <div className='flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4 '>
           <img
             src={imgURL.thumbnail}
             alt='shoe colletion'

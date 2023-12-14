@@ -5,7 +5,7 @@ import { CustomerReviews, Footer, Hero, PopularProducts, Services, SpecialOffer,
 function App() {
 
   return (
-   <main className="relative">
+   <main className="relative overflow-hidden">
     <Nav />
     <section className="xl:padding-l wide:padding-r padding-b">
       <Hero />

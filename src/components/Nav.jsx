@@ -37,7 +37,7 @@ const Nav = () => {
           }
         </ul>
 
-        <div className="flex gap-2 text-lg leading-normal  font-medium font-montserrat max-lg:hidden wide:mr-24 bg-transparent hover:bg-black cursor-pointer">
+        <div className="flex gap-2 text-lg leading-normal  font-medium font-montserrat max-lg:hidden wide:mr-24 bg-transparent  cursor-pointer">
           <a href='/' className=" cursor-pointer"> Sign In</a>
           <span>/</span>
           <a href='/'>Explore now</a>
